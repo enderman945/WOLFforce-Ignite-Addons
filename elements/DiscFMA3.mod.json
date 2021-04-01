@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "usic_isc_13_1_2_15",
+    "name": "Golden Time Lover",
+    "description": "Opening n°3  -  FullMetal Alchemist Brotherhood",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "music": {
+      "value": "CUSTOM:op3_fmabh"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

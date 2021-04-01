@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "usic_isc_13_1_2_15",
+    "name": "Virtual Destiny",
+    "description": "Opening n°2  -  Sword Art Online",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "music": {
+      "value": "CUSTOM:op2_sao"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

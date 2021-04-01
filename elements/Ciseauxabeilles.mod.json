@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ciseaux_abeille",
+    "customModelName": "Normal",
+    "name": "Les Ciseaux Abeilles",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "stackSize": 1,
+    "enchantability": 30,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 16,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 15.0,
+    "specialInfo": [
+      "L'un des 3 items sacrés"
+    ],
+    "hasGlow": true,
+    "onEntityHitWith": {
+      "name": "CiseauxAbeillesHitAMod"
+    }
+  }
+}

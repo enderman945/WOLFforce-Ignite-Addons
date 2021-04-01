@@ -1,0 +1,128 @@
+{
+  "sunlight_bg": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:sunlightbg",
+        "stream": true
+      }
+    ]
+  },
+  "op1_snk": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:1f-snk",
+        "stream": true
+      }
+    ]
+  },
+  "op2-snk": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:2f-snk",
+        "stream": true
+      }
+    ]
+  },
+  "op3_snk": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:3f-snk",
+        "stream": true
+      }
+    ]
+  },
+  "op5_snk": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:5f-snk",
+        "stream": true
+      }
+    ]
+  },
+  "op6_snk": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:6f-snk",
+        "stream": true
+      }
+    ]
+  },
+  "op1_sao": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:1f-sao",
+        "stream": true
+      }
+    ]
+  },
+  "op2_sao": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:2f-sao",
+        "stream": true
+      }
+    ]
+  },
+  "op1_fmabh": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:1f-fma",
+        "stream": true
+      }
+    ]
+  },
+  "op2_fmabh": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:2f-fma",
+        "stream": true
+      }
+    ]
+  },
+  "op3_fmabh": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:3f-fma",
+        "stream": true
+      }
+    ]
+  },
+  "op5_fmabh": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:5f-fma",
+        "stream": true
+      }
+    ]
+  },
+  "op4_fmabh": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:4f-fma",
+        "stream": true
+      }
+    ]
+  },
+  "sunlight": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wolfforceigniteaddons:sunlight",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "WFcreativetab",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wflogo",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wfinfo",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wf",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GUIbvn",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "WfinfoCommandExecuted",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sunlight",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSnk6",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSNK3",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSNK1",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSNK2",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSNK5",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSAO1",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscSAO2",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscFMA1",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscFMA2",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscFMA5",
+      "type": "musicdisc",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscFMA3",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiscFMA4",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ciseauxabeilles",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dedemomo",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RegleURDPienne",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RegleURDPienneRightClickedInAir",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemomoRightClickedInAir",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiseauxAbeillesHitAMod",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NametagRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sunlight_bg",
+      "file": "sunlightbg",
+      "category": "music"
+    },
+    {
+      "name": "op1_snk",
+      "file": "1f-snk",
+      "category": "record"
+    },
+    {
+      "name": "op2-snk",
+      "file": "2f-snk",
+      "category": "record"
+    },
+    {
+      "name": "op3_snk",
+      "file": "3f-snk",
+      "category": "record"
+    },
+    {
+      "name": "op5_snk",
+      "file": "5f-snk",
+      "category": "record"
+    },
+    {
+      "name": "op6_snk",
+      "file": "6f-snk",
+      "category": "record"
+    },
+    {
+      "name": "op1_sao",
+      "file": "1f-sao",
+      "category": "record"
+    },
+    {
+      "name": "op2_sao",
+      "file": "2f-sao",
+      "category": "record"
+    },
+    {
+      "name": "op1_fmabh",
+      "file": "1f-fma",
+      "category": "record"
+    },
+    {
+      "name": "op2_fmabh",
+      "file": "2f-fma",
+      "category": "record"
+    },
+    {
+      "name": "op3_fmabh",
+      "file": "3f-fma",
+      "category": "record"
+    },
+    {
+      "name": "op5_fmabh",
+      "file": "5f-fma",
+      "category": "record"
+    },
+    {
+      "name": "op4_fmabh",
+      "file": "4f-fma",
+      "category": "record"
+    },
+    {
+      "name": "sunlight",
+      "file": "sunlight",
+      "category": "record"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.record.discsnk6.desc": "Opening n°6  -  L\u0027Attque des Titans",
+      "item.discfma4.name": "Period",
+      "item.discsnk6.name": "My War",
+      "item.discsnk3.name": "Shinzou wo Sasageyo",
+      "item.record.discfma2.desc": "Opening n°2  -  FullMetal Alchemist Brotherhood",
+      "item.record.discfma4.desc": "Opening n°4  -  FullMetal Alchemist Brotherhood",
+      "item.record.discsnk3.desc": "Opening n°3  -  L\u0027Attque des Titans",
+      "item.discfma2.name": "Hologram",
+      "item.discfma5.name": "Rain",
+      "item.record.discfma5.desc": "Opening n°5  -  FullMetal Alchemist Brotherhood",
+      "item.record.discfma1.desc": "Opening n°1  -  FullMetal Alchemist Brotherhood",
+      "item.record.sunlight.desc": "Sunlight  -  The Fat Rat",
+      "item.record.discsnk1.desc": "Opening n°1  -  L\u0027Attaque des Titans",
+      "item.discsao2.name": "Virtual Destiny",
+      "item.sunlight.name": "Sunlight",
+      "item.discfma1.name": "Again",
+      "item.ciseauxabeilles.name": "Les Ciseaux Abeilles",
+      "item.discfma3.name": "Golden Time Lover",
+      "item.record.discsao2.desc": "Opening n°2  -  Sword Art Online",
+      "item.discsnk1.name": "Gueren no Yumiya",
+      "item.regleurdpienne.name": "La Règle URDPienne",
+      "item.discsnk2.name": "Jiyuu no Tsubasa",
+      "item.record.discsnk5.desc": "Opening n°5  -  L\u0027Attaque des Titans",
+      "item.dedemomo.name": "Le Dé de Momo",
+      "item.record.discsao1.desc": "Opening n°1  -  Sword Art Online",
+      "item.record.discsnk2.desc": "Opening n°2  -  L\u0027Attaque des Titans",
+      "item.discsnk5.name": "Shoukei to Shikabane no Michi",
+      "item.wflogo.name": "WOLFforce badge",
+      "itemGroup.tabwfcreativetab": "WOLFforce mod",
+      "item.discsao1.name": "Crossing Field",
+      "item.record.discfma3.desc": "Opening n°3  -  FullMetal Alchemist Brotherhood"
+    },
+    "fr_fr": {
+      "item.record.discsnk6.desc": "L\u0027Attque des Titans",
+      "item.discfma4.name": "Period",
+      "item.discsnk6.name": "Opening n°6",
+      "item.discsnk3.name": "Shinzou wo Sasageyo",
+      "item.record.discfma2.desc": "Opening n°2  -  FullMetal Alchemist Brotherhood",
+      "item.record.discfma4.desc": "Opening n°4  -  FullMetal Alchemist Brotherhood",
+      "item.record.discsnk3.desc": "Opening n°3  -  L\u0027Attque des Titans",
+      "item.discfma2.name": "Hologram",
+      "item.discfma5.name": "Rain",
+      "item.record.discfma5.desc": "Opening n°5  -  FullMetal Alchemist Brotherhood",
+      "item.record.discfma1.desc": "Opening n°1  -  FullMetal Alchemist Brotherhood",
+      "item.record.sunlight.desc": "- The Fat Rat",
+      "item.record.discsnk1.desc": "Opening n°1  -  L\u0027Attaque des Titans",
+      "item.discsao2.name": "Virtual Destiny",
+      "item.sunlight.name": "Sunlight music disk",
+      "item.discfma1.name": "Again",
+      "item.ciseauxabeilles.name": "Les Ciseaux Abeilles",
+      "item.discfma3.name": "Golden Time Lover",
+      "item.record.discsao2.desc": "Opening n°2  -  Sword Art Online",
+      "item.discsnk1.name": "Gueren no Yumiya",
+      "item.regleurdpienne.name": "La Règle URDPienne",
+      "item.discsnk2.name": "Jiyuu no Tsubasa",
+      "item.record.discsnk5.desc": "Opening n°5  -  L\u0027Attaque des Titans",
+      "item.dedemomo.name": "Le Dé de Momo",
+      "item.record.discsao1.desc": "Opening n°1  -  Sword Art Online",
+      "item.record.discsnk2.desc": "Opening n°2  -  L\u0027Attaque des Titans",
+      "item.discsnk5.name": "Shoukei to Shikabane no Michi",
+      "item.wflogo.name": "WOLFforce badge",
+      "itemGroup.tabwfcreativetab": "WOLFforce mod",
+      "item.discsao1.name": "Crossing field",
+      "item.record.discfma3.desc": "Opening n°3  -  FullMetal Alchemist Brotherhood"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "wolfforceigniteaddons",
+    "modName": "WOLFforce Ignite addons",
+    "version": "BETA 21.04.01",
+    "description": "Addons pour le modpack WOLFforce Ignite",
+    "author": "enderman_95_",
+    "websiteURL": "https://github.com/enderman945/WOLFforce-Ignite-Addons",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "force_logo_2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Created using MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wolfforceegraddons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

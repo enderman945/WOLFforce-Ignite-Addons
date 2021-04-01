@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "usic_isc_13_1_2_15",
+    "name": "My War",
+    "description": "Opening n°6  -  L'Attque des Titans",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "music": {
+      "value": "CUSTOM:op6_snk"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

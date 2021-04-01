@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "usic_isc_13_1_2_15",
+    "name": "Again",
+    "description": "Opening n°1  -  FullMetal Alchemist Brotherhood",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "music": {
+      "value": "CUSTOM:op1_fmabh"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

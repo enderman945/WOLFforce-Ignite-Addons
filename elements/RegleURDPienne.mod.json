@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "regle_urdpienne",
+    "customModelName": "Normal",
+    "name": "La Règle URDPienne",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "stackSize": 1,
+    "enchantability": 30,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "L'un des 3 items sacrés"
+    ],
+    "hasGlow": true,
+    "onRightClickedInAir": {
+      "name": "RegleURDPienneRightClickedInAir"
+    }
+  }
+}

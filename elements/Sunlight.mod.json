@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "usic_isc_13_1_2_15",
+    "name": "Sunlight",
+    "description": "Sunlight  -  The Fat Rat",
+    "creativeTab": {
+      "value": "CUSTOM:WFcreativetab"
+    },
+    "music": {
+      "value": "CUSTOM:sunlight"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
