@@ -12,7 +12,7 @@ import net.mcreator.wolfforceegraddons.ElementsWOLFforceIgniteaddons;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class ProcedureCiseauxAbeillesHitAMod extends ElementsWOLFforceIgniteaddons.ModElement {
 	public ProcedureCiseauxAbeillesHitAMod(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 22);
+		super(instance, 26);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -10,7 +10,7 @@ import net.mcreator.wolfforceegraddons.ElementsWOLFforceIgniteaddons;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class ProcedureCouscousOrFoodEaten extends ElementsWOLFforceIgniteaddons.ModElement {
 	public ProcedureCouscousOrFoodEaten(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 25);
+		super(instance, 29);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

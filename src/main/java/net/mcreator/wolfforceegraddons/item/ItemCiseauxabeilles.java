@@ -31,7 +31,7 @@ public class ItemCiseauxabeilles extends ElementsWOLFforceIgniteaddons.ModElemen
 	@GameRegistry.ObjectHolder("wolfforceigniteaddons:ciseauxabeilles")
 	public static final Item block = null;
 	public ItemCiseauxabeilles(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 20);
+		super(instance, 16);
 	}
 
 	@Override

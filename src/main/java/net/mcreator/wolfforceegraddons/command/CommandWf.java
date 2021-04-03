@@ -17,7 +17,7 @@ import java.util.ArrayList;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class CommandWf extends ElementsWOLFforceIgniteaddons.ModElement {
 	public CommandWf(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 17);
+		super(instance, 22);
 	}
 
 	@Override

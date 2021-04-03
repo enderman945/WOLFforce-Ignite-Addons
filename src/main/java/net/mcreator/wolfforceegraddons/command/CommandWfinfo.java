@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class CommandWfinfo extends ElementsWOLFforceIgniteaddons.ModElement {
 	public CommandWfinfo(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 16);
+		super(instance, 21);
 	}
 
 	@Override

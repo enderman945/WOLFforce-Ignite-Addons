@@ -9,7 +9,7 @@ import net.mcreator.wolfforceegraddons.ElementsWOLFforceIgniteaddons;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class ProcedureDemomoRightClickedInAir extends ElementsWOLFforceIgniteaddons.ModElement {
 	public ProcedureDemomoRightClickedInAir(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 21);
+		super(instance, 25);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -8,12 +8,16 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.wolfforceegraddons.procedure.ProcedureDemomoRightClickedInAir;
 import net.mcreator.wolfforceegraddons.creativetab.TabWFcreativetab;
 import net.mcreator.wolfforceegraddons.ElementsWOLFforceIgniteaddons;
 
@@ -24,7 +28,7 @@ public class ItemDedemomo extends ElementsWOLFforceIgniteaddons.ModElement {
 	@GameRegistry.ObjectHolder("wolfforceigniteaddons:dedemomo")
 	public static final Item block = null;
 	public ItemDedemomo(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 20);
+		super(instance, 17);
 	}
 
 	@Override
@@ -71,6 +75,22 @@ public class ItemDedemomo extends ElementsWOLFforceIgniteaddons.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add("L'un des 3 items sacr\u00E9s");
+		}
+
+		@Override
+		public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entity, EnumHand hand) {
+			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+			ItemStack itemstack = ar.getResult();
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
+				ProcedureDemomoRightClickedInAir.executeProcedure($_dependencies);
+			}
+			return ar;
 		}
 	}
 }

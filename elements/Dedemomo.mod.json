@@ -21,6 +21,9 @@
     "specialInfo": [
       "L'un des 3 items sacrés"
     ],
-    "hasGlow": true
+    "hasGlow": true,
+    "onRightClickedInAir": {
+      "name": "DemomoRightClickedInAir"
+    }
   }
 }

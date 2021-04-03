@@ -24,7 +24,7 @@ public class ItemCouscousHamoud extends ElementsWOLFforceIgniteaddons.ModElement
 	@GameRegistry.ObjectHolder("wolfforceigniteaddons:couscoushamoud")
 	public static final Item block = null;
 	public ItemCouscousHamoud(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 24);
+		super(instance, 18);
 	}
 
 	@Override

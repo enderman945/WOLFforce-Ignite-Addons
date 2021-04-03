@@ -11,7 +11,7 @@ import net.mcreator.wolfforceegraddons.ElementsWOLFforceIgniteaddons;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class ProcedureWfinfoCommandExecuted extends ElementsWOLFforceIgniteaddons.ModElement {
 	public ProcedureWfinfoCommandExecuted(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 19);
+		super(instance, 24);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

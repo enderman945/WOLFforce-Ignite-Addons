@@ -36,7 +36,7 @@ public class GuiGUIbvn extends ElementsWOLFforceIgniteaddons.ModElement {
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
 	public GuiGUIbvn(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 18);
+		super(instance, 23);
 	}
 
 	@Override

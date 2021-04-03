@@ -24,7 +24,7 @@ public class ItemCouscousOr extends ElementsWOLFforceIgniteaddons.ModElement {
 	@GameRegistry.ObjectHolder("wolfforceigniteaddons:couscousor")
 	public static final Item block = null;
 	public ItemCouscousOr(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 25);
+		super(instance, 19);
 	}
 
 	@Override

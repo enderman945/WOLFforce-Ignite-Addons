@@ -13,7 +13,7 @@ import net.mcreator.wolfforceegraddons.ElementsWOLFforceIgniteaddons;
 @ElementsWOLFforceIgniteaddons.ModElement.Tag
 public class TabWFcreativetab extends ElementsWOLFforceIgniteaddons.ModElement {
 	public TabWFcreativetab(ElementsWOLFforceIgniteaddons instance) {
-		super(instance, 15);
+		super(instance, 20);
 	}
 
 	@Override

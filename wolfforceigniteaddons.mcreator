@@ -6,7 +6,7 @@
     {
       "name": "WFcreativetab",
       "type": "tab",
-      "sortid": 15,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -22,7 +22,7 @@
     {
       "name": "Wfinfo",
       "type": "command",
-      "sortid": 16,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -30,7 +30,7 @@
     {
       "name": "Wf",
       "type": "command",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -38,7 +38,7 @@
     {
       "name": "GUIbvn",
       "type": "gui",
-      "sortid": 18,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -48,7 +48,7 @@
     {
       "name": "WfinfoCommandExecuted",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "Ciseauxabeilles",
       "type": "item",
-      "sortid": 20,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -192,43 +192,15 @@
     {
       "name": "Dedemomo",
       "type": "item",
-      "sortid": 20,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "RegleURDPienne",
-      "type": "item",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "RegleURDPienneRightClickedInAir",
-      "type": "procedure",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
     },
     {
       "name": "DemomoRightClickedInAir",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -248,7 +220,7 @@
     {
       "name": "CiseauxAbeillesHitAMod",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +236,7 @@
     {
       "name": "NametagRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -272,7 +244,7 @@
     {
       "name": "CouscousHamoudFoodEaten",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -288,7 +260,7 @@
     {
       "name": "CouscousHamoud",
       "type": "food",
-      "sortid": 24,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -296,7 +268,7 @@
     {
       "name": "CouscousOrFoodEaten",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -312,7 +284,15 @@
     {
       "name": "CouscousOr",
       "type": "food",
-      "sortid": 25,
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RegleURDPienne",
+      "type": "tool",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -415,7 +395,7 @@
       "item.couscousor.name": "Couscous en or",
       "item.record.discsao2.desc": "Opening n°2  -  Sword Art Online",
       "item.discsnk1.name": "Gueren no Yumiya",
-      "item.regleurdpienne.name": "La Règle URDPienne",
+      "item.regleurdpienne.name": "Regle U.R.D.P.ienne",
       "item.discsnk2.name": "Jiyuu no Tsubasa",
       "item.record.discsnk5.desc": "Opening n°5  -  L\u0027Attaque des Titans",
       "item.dedemomo.name": "Le Dé de Momo",
@@ -450,7 +430,7 @@
       "item.couscousor.name": "Couscous en or",
       "item.record.discsao2.desc": "Opening n°2  -  Sword Art Online",
       "item.discsnk1.name": "Gueren no Yumiya",
-      "item.regleurdpienne.name": "La Règle URDPienne",
+      "item.regleurdpienne.name": "Regle U.R.D.P.ienne",
       "item.discsnk2.name": "Jiyuu no Tsubasa",
       "item.record.discsnk5.desc": "Opening n°5  -  L\u0027Attaque des Titans",
       "item.dedemomo.name": "Le Dé de Momo",
