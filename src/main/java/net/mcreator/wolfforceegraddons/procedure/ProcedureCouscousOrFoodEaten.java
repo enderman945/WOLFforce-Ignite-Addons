@@ -35,5 +35,7 @@ public class ProcedureCouscousOrFoodEaten extends ElementsWOLFforceIgniteaddons.
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, (int) 9999999, (int) 1));
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SATURATION, (int) 9999999, (int) 1));
+		if (entity instanceof EntityLivingBase)
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, (int) 9999999, (int) 1));
 	}
 }
