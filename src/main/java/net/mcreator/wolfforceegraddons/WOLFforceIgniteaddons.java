@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = WOLFforceIgniteaddons.MODID, version = WOLFforceIgniteaddons.VERSION)
 public class WOLFforceIgniteaddons {
 	public static final String MODID = "wolfforceigniteaddons";
-	public static final String VERSION = "BETA 21.04.01";
+	public static final String VERSION = "v 1.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("wolfforceigniteadd:a");
 	@SidedProxy(clientSide = "net.mcreator.wolfforceegraddons.ClientProxyWOLFforceIgniteaddons", serverSide = "net.mcreator.wolfforceegraddons.ServerProxyWOLFforceIgniteaddons")
 	public static IProxyWOLFforceIgniteaddons proxy;

@@ -52,12 +52,12 @@ public class CommandWf extends ElementsWOLFforceIgniteaddons.ModElement {
 
 		@Override
 		public String getName() {
-			return "wf";
+			return "wf bienvenue";
 		}
 
 		@Override
 		public String getUsage(ICommandSender var1) {
-			return "/wf [<arguments>]";
+			return "/wf bienvenue [<arguments>]";
 		}
 
 		@Override
